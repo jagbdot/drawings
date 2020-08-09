@@ -557,6 +557,7 @@ h4{
 	margin-bottom: 40px;
 	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
 	text-align: center;
+	padding-top: 18vw;
 }
 
 .half-1{
@@ -690,7 +691,7 @@ box-shadow: inset 0px -6px 5px -2px rgba(0,0,0,0.45);
 .fullpage img{
 	overflow: hidden;
 	width: 100%;
-	bottom: -500px;
+	bottom: -40vw;
 	position: absolute;
 }
 
@@ -892,9 +893,9 @@ box-shadow: inset 0px -6px 5px -2px rgba(0,0,0,0.45);
 
 /*last*/
 .last {
-	margin: 100px auto 0 auto;
+	margin: 0px auto 0 auto;
 	text-align: center;
-	padding-bottom: 30vh;
+	padding-bottom: 0vh;
 }
 
 .last p{
@@ -943,6 +944,7 @@ box-shadow: inset 0px -6px 5px -2px rgba(0,0,0,0.45);
 	.message {
 		display: none;
 	}
+
 	.frame {
 		position: fixed;
 		text-align: left;
@@ -995,12 +997,27 @@ box-shadow: inset 0px -6px 5px -2px rgba(0,0,0,0.45);
 	}
 }
 
+@media (max-width: 840px) {
+
+	.content--fixed{
+		display: none;
+	}
+
+	h4{
+		padding-top: 10vw;
+	}
+}
+
 @media (max-width: 750px) {
 
 	.content {
 	display: none;
 }
 
+.fullpage img{
+
+	bottom: -300px;
+}
 
 	.section,
 	.last {
