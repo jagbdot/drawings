@@ -31,7 +31,7 @@ h2{
 	text-align: center;
 	font-weight: 200;
 	font-size: 2.5rem;
-	font-style: italic;
+	margin: 0 auto;
 }
 
 h3{
@@ -554,10 +554,13 @@ main {
 }
 
 h4{
-	margin-bottom: 40px;
+	margin-bottom: 200px;
+	padding-bottom: 12vw;
 	font-family: soleil, Futura, "Trebuchet MS", Arial, sans-serif;
 	text-align: center;
-	padding-top: 18vw;
+	padding-top: 8vw;
+	margin: 0 auto;
+    width: 45%;
 }
 
 .half-1{
